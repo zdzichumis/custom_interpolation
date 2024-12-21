@@ -32,6 +32,9 @@
     result.plot(points = points)
 """
 
+import numpy as np
+import matplotlib.pyplot as plt
+
 def splains_interpolation(x, y, verbose = False):
     n = len(x)
     if verbose:
