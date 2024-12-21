@@ -22,6 +22,8 @@
     polynomial.show()
     polynomial.plot(xlim = [-2, 4])
 """
+import numpy as np
+import matplotlib.pyplot as plt
 
 class Polynomial:
     
