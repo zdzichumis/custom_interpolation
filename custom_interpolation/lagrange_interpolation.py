@@ -40,6 +40,8 @@
     result.plot([-1, 1], points = points)
     plt.show()
 """
+import numpy as np
+import matplotlib.pyplot as plt
 
 def lagrange_interpolation(x, y):
     n = len(x)
