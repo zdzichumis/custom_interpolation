@@ -9,4 +9,4 @@ A Python package for polynomial, Lagrange, and spline interpolation with plottin
 
 ## Installation
 ```bash
-pip install git+https://github.com/yourusername/my_interpolation_package.git
+pip install git+https://github.com/zdzichumis/custom_interpolation.git

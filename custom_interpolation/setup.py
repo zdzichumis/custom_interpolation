@@ -8,7 +8,7 @@ setup(
     long_description_content_type="text/markdown",
     author="Adam Michalski",
     author_email="adammichalski@adres.pl",
-    url="https://github.com/yourusername/my_interpolation_package",
+    url="https://github.com/zdzichumis/custom_interpolation",
     packages=find_packages(),
     install_requires=[
         "numpy",
