@@ -34,8 +34,8 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
-from .Polynomial import Polynomial
-from .Splains import Splains
+from .polynomial import Polynomial
+from .splains import Splains
 
 def splains_interpolation(x, y, verbose = False):
     n = len(x)
