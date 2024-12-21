@@ -1,12 +1,18 @@
 # My Interpolation Package
 
-A Python package for polynomial, Lagrange, and spline interpolation with plotting capabilities.
+A Python package for Lagrange, and spline interpolation methods with plotting capabilities.
 
 ## Features
-- Polynomial interpolation
 - Lagrange interpolation
 - Cubic spline interpolation
+- Plotting capabilities of both polynomials and splines
 
 ## Installation
 ```bash
 pip install git+https://github.com/zdzichumis/custom_interpolation.git
+```
+## Usage
+  Use at the beggining of your code:
+```bash
+from custom_interpolation import Polynomial, Splines, lagrange_interpolation, splines_interpolation
+```
