@@ -14,5 +14,5 @@ pip install git+https://github.com/zdzichumis/custom_interpolation.git
 ## Usage
   Use at the beggining of your code:
 ```bash
-from custom_interpolation import Polynomial, Splines, lagrange_interpolation, splines_interpolation
+from custom_interpolation import Polynomial, Splains, lagrange_interpolation, splains_interpolation
 ```
