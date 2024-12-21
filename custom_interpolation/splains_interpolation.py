@@ -21,18 +21,18 @@
     --------
 
     x, y = ([1, 2, 3], [1, 2, 3])
-    result = splain_interpolation(x, y, verbose = True)
+    result = splains_interpolation(x, y, verbose = True)
     points = x, y
     result.plot(points = points)
     
     x = np.linspace(-1, 1, 11)
     y = 1/(1+25*x**2)
-    result = splain_interpolation(x, y, verbose = False)
+    result = splains_interpolation(x, y, verbose = False)
     points = x, y
     result.plot(points = points)
 """
 
-def splain_interpolation(x, y, verbose = False):
+def splains_interpolation(x, y, verbose = False):
     n = len(x)
     if verbose:
         print(f"n={n}, expected number of equations = {4*n-4}")
