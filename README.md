@@ -1,6 +1,6 @@
 # My Interpolation Package
 
-A Python package for Lagrange, and spline interpolation methods with plotting capabilities.
+A Python package for Lagrange and spline interpolation methods with plotting capabilities.
 
 ## Features
 - Lagrange interpolation
